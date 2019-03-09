@@ -33,4 +33,9 @@
 			return $sqlQuery;
 		}
 		
+		public function getLastInsertedId()
+		{
+			return $this->instance->lastInsertId();
+		}
+		
 	}
